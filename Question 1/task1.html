@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        input{
+            background-color:cadetblue;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form>
+        First Name: <input type="text"><br><br>
+        Last Name: <input type="text"><br><br>
+        Email: <input type="email"><br><br>
+        Password: <input type="password"><br><br>
+        Confirm Password: <input type="confirm password"><br>
+        <h5>Select your Gender</h5>
+        <input type="radio" name="gender" value="Male" >Male<br>
+        <input type="radio" name="gender" value="Female" >Female<br>
+        <input type="radio" name="gender" value="other" >other<br>
+        DOB: <input type="date"><br><br>
+        country:<input type="text" list="countries" placeholder="Enter your country"><br>
+        <datalist id="countries">
+            <option value="Pakistan">
+            <option value="China">
+            <option value="India">
+        </datalist>
+        <input type="checkbox" >subscribe to news letter<br><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html> 
